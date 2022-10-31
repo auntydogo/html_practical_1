@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <style>
+        body {
+            background-color: rgb(226, 217, 224);
+            color: rgb(156, 136, 155);
+            padding: 30px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        input {
+            margin-block-end: 15px;
+            padding: 5px 100px;
+        }
+
+        label {
+             color: white;
+        }
+
+        textarea {
+            padding-right: 100px;
+        }
+
+        fieldset {
+            background-color: rgb(45, 26, 66);
+            padding: 15px;
+            width: 400px;
+        }
+
+        ::placeholder {
+            padding: 10px;
+            color: rgb(37, 70, 18);
+        }
+
+        button {
+            width: 80px;
+            margin-top: 10px;
+            padding: 5px 5px 5px 0;
+            color: whiteb(37, 70, 18);
+            background-color: white(87, 61, 43, 0.034);
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: rgb(205, 241, 184);
+            transition: 0.5s;
+        }
+    </style>
+  </head>
+  <body>
+    <p>Software Tester here available for collaborations:</p>
+    <fieldset>
+        <form action="">
+            <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            </div>
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+            </div>
+            <div>
+            <textarea placeholder="I'm just a click away!" cols="30" rows="15"></textarea>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </fieldset>
+  </body>
+</html>
